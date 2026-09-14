@@ -34,6 +34,8 @@
     background-color: blue;
     margin:5px;
     transition: all 1ms ease-in 0s;
+    transition:transform 2s;
+
 }
 
 .profile1 i{
@@ -62,6 +64,7 @@
 .Card_1:hover{
     background-color: rgb(35, 146, 35);
     border:3px solid white;
+    transform:rotateZ(360deg);
 }
 
 .user1 p{
@@ -74,6 +77,7 @@
     background-color: blue;
     margin:5px;
     transition: all 1ms ease-in 0s;
+    transition:transform 2s;
 }
 
 .profile2{
@@ -103,6 +107,7 @@
 .Card_2:hover{
     background-color: rgb(32, 192, 32);
     border:3px solid khaki;
+    transform:rotateY(360deg);
 }
 
 .user2 p{
@@ -117,11 +122,13 @@
     background-color: blue;
     margin:5px;
     transition: all 1ms ease-in 0s;
+    transition:transform 2s;
 }
 
 .Card_3:hover{
     background-color: rgb(7, 234, 7);
     border:3px solid black;
+    transform:rotate3d(1,1,1,10deg);
 }
 
 
