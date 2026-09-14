@@ -4,9 +4,8 @@
 }
 
 .container{
-    width:100%;
-    min-height:100dvh;
-    height:auto;
+    width:100vw;
+    height:100vh;
     background-size: cover;
     display:flex;
     flex-direction: column;
@@ -124,7 +123,7 @@
     margin:5px;
     transition: all 1ms ease-in 0s;
     transition:transform 2s;
-    
+
 }
 
 .Card_3:hover{
@@ -167,6 +166,11 @@
 }
 
 @media (max-width:600px){
+    .container{
+        min-height:100dvh;
+        height:auto;
+        padding:10px;
+    }
     .main_card{
     
         display:flex;
