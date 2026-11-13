@@ -71,7 +71,7 @@ This project helped me understand that:
 
 📂 **Source Code:** `ADD YOUR GITHUB REPOSITORY LINK`
 
-🌐 **Live Demo:** `ADD YOUR DEPLOYED LINK`
+🌐 **Live Demo:** `https://testimonial-cards-zeta.vercel.app
 
 ---
 
